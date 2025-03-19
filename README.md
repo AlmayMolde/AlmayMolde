@@ -1,54 +1,111 @@
-<header>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vende pan de masa madre en Buenos Aires y alrededores.">
+    <title>Pan de Masa Madre - Buenos Aires</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #8b5e3c;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            width: calc(33% - 20px);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product h3 {
+            color: #8b5e3c;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #8b5e3c;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .product {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .product {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pan de Masa Madre - Buenos Aires</h1>
+        <p>¡Deliciosos panes de masa madre, frescos y hechos con amor!</p>
+    </header>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+    <div class="container">
+        <section>
+            <h2>Nuestros Productos</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="https://via.placeholder.com/300" alt="Pan de masa madre clásico">
+                    <h3>Pan de Masa Madre Clásico</h3>
+                    <p>El clásico pan de masa madre, con una corteza crujiente y miga suave.</p>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/300" alt="Pan de masa madre con semillas">
+                    <h3>Pan de Masa Madre con Semillas</h3>
+                    <p>Una variante deliciosa con semillas de girasol y sésamo.</p>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/300" alt="Pan de masa madre integral">
+                    <h3>Pan Integral de Masa Madre</h3>
+                    <p>Pan saludable y lleno de fibra, ideal para quienes buscan un estilo de vida más sano.</p>
+                </div>
+            </div>
+        </section>
 
-# GitHub Pages
+        <section>
+            <h2>¿Cómo Comprar?</h2>
+            <p>Puedes contactarnos a través de las siguientes opciones:</p>
+            <ul>
+                <li>WhatsApp: <strong>+54 9 11 1234-5678</strong></li>
+                <li>Email: <strong>panmasamadrebuenosaires@example.com</strong></li>
+                <li>Visítanos en nuestras ubicaciones en Buenos Aires.</li>
+            </ul>
+        </section>
+    </div>
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
-</header>
-
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
-
-## Step 1: Enable GitHub Pages
-
-_Welcome to GitHub Pages and Jekyll :tada:!_
-
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
-
-### :keyboard: Activity: Enable GitHub Pages
-
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+    <footer>
+        <p>© 2025 Pan de Masa Madre - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
